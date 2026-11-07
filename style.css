@@ -171,7 +171,6 @@ header {
     }
 }
 
-/* Placeholder de foto */
 .ph {
     position: relative;
     overflow: hidden;
@@ -223,7 +222,7 @@ header {
 
 .hero h1 i {
     font-style: normal;
-    color: var(--bronce)
+    color: var(--ink);
 }
 
 .hero .sub {
