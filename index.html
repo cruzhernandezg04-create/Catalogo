@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Renta el Patitas</title>
+    <meta name="description"
+        content="Renta de carpas, tablones, sillas y brincolines con entrega, montaje y recolección a domicilio en San Pablo de las Salinas y zonas cercanas.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500&family=JetBrains+Mono:wght@400;500&family=Syne:wght@600;700;800&display=swap">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <div class="wrap nav">
+            <a class="logo" href="#inicio">Renta el Patitas</a>
+            <nav class="links mono" aria-label="Principal">
+                <a href="#catalogo">Catálogo</a><a href="#paquetes">Paquetes</a><a href="#como">Cómo funciona</a><a
+                    href="#cotizar">Contacto</a>
+            </nav>
+            <a class="btn mono" href="#cotizar">Cotizar</a>
+        </div>
+    </header>
+
+    <main>
+        <section class="hero" id="inicio">
+            <div class="wrap hero-grid">
+                <div>
+                    <span class="mono eyebrow">Renta de mobiliario e inflables · San Pablo de las Salinas</span>
+                    <h1><i>¡Haz tu evento inolvidable!</i></h1>
+                    <p class="sub">Carpas, tablones, sillas y brincolines que llegan, se montan y se retiran sin que
+                        tengas que coordinar nada.</p>
+                    <div class="btns">
+                        <a class="btn mono" href="#catalogo">Ver catálogo</a>
+                        <a class="btn ghost mono" href="#cotizar">Solicitar cotización</a>
+                    </div>
+                    <p class="facts mono">Entrega a domicilio · Montaje · Recolección</p>
+                </div>
+                <div class="shot">
+                    <div class="ph mono" data-l=""><span>Foto: carpa montada en un evento</span><img src="img/hero.jpg"
+                            alt="Carpa montada para un evento" onerror="this.remove()"></div>
+                    <div class="cap"><span class="mono">Servicio completo</span><b>Entregamos, montamos y recogemos.</b>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="catalogo" style="padding-top:0">
+            <div class="wrap">
+                <div class="head">
+                    <h2>Piezas listas para tu fiesta.</h2>
+                    <p class="sub">Elige lo que necesitas y cotiza por WhatsApp. Precio y disponibilidad según tu fecha.
+                    </p>
+                </div>
+                <div class="tabs mono" role="group" aria-label="Filtrar catálogo">
+                    <button class="tab" data-f="todos" aria-pressed="true">Todo<small></small></button>
+                    <button class="tab" data-f="carpas" aria-pressed="false">Carpas<small></small></button>
+                    <button class="tab" data-f="mobiliario" aria-pressed="false">Sillas y
+                        tablones<small></small></button>
+                    <button class="tab" data-f="inflables" aria-pressed="false">Brincolines e
+                        inflables<small></small></button>
+                </div>
+                <div class="grid">
+                    <article class="card" data-c="mobiliario">
+                        <div class="ph mono"><span>Foto: sillas</span><img src="img/sillas.jpg" alt="Sillas plegables"
+                                onerror="this.remove()"></div>
+                        <div class="card-b">
+                            <div class="top mono"><span>Sillas</span><b>$—</b></div>
+                            <h3>Sillas plegables</h3>
+                            <p>Prácticas y resistentes para cualquier tamaño de fiesta. Precio por pieza.</p>
+                            <a class="ask"
+                                href="https://wa.me/525651860923?text=Hola,%20me%20interesa%20rentar%20sillas."
+                                target="_blank" rel="noopener noreferrer">Cotizar</a>
+                        </div>
+                    </article>
+                    <article class="card" data-c="mobiliario">
+                        <div class="ph mono"><span>Foto: tablones</span><img src="img/tablones.jpg"
+                                alt="Tablones con mantel" onerror="this.remove()"></div>
+                        <div class="card-b">
+                            <div class="top mono"><span>Tablones</span><b>$—</b></div>
+                            <h3>Tablones</h3>
+                            <p>Mesas rectangulares para tus invitados. Medidas por definir.</p>
+                            <a class="ask"
+                                href="https://wa.me/525651860923?text=Hola,%20me%20interesa%20rentar%20tablones."
+                                target="_blank" rel="noopener noreferrer">Cotizar</a>
+                        </div>
+                    </article>
+                    <article class="card" data-c="carpas">
+                        <div class="ph mono"><span>Foto: carpa</span><img src="img/carpa.jpg" alt="Carpa para eventos"
+                                onerror="this.remove()"></div>
+                        <div class="card-b">
+                            <div class="top mono"><span>Carpas</span><b>$—</b></div>
+                            <h3>Carpa</h3>
+                            <p>Cubre tu evento del sol y de la lluvia. Capacidad y medidas por definir. Precio por día.
+                            </p>
+                            <a class="ask"
+                                href="https://wa.me/525651860923?text=Hola,%20me%20interesa%20rentar%20una%20carpa."
+                                target="_blank" rel="noopener noreferrer">Cotizar</a>
+                        </div>
+                    </article>
+                    <article class="card" data-c="inflables">
+                        <div class="ph mono"><span>Foto: brincolín</span><img src="img/brincolin.jpg" alt="Brincolín"
+                                onerror="this.remove()"></div>
+                        <div class="card-b">
+                            <div class="top mono"><span>Brincolines</span><b>$—</b></div>
+                            <h3>Brincolín</h3>
+                            <p>Diversión para fiestas infantiles. Medidas por definir. Precio por 6 horas.</p>
+                            <a class="ask"
+                                href="https://wa.me/525651860923?text=Hola,%20me%20interesa%20rentar%20un%20brincol%C3%ADn."
+                                target="_blank" rel="noopener noreferrer">Cotizar</a>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <section class="dark" id="paquetes">
+            <div class="wrap">
+                <div class="head">
+                    <h2>Todo en un solo paquete.</h2>
+                    <p class="sub">Combina mobiliario, carpa e inflables y cotiza un solo precio según tu número de
+                        invitados.</p>
+                </div>
+                <div class="pk">
+                    <div>
+                        <h3>Paquete 1</h3><span class="mono">Hasta — invitados</span>
+                        <div class="pr">$—</div>
+                        <ul>
+                            <li>— sillas</li>
+                            <li>— tablones</li>
+                            <li>Entrega y recolección</li>
+                        </ul>
+                        <a class="btn mono"
+                            href="https://wa.me/525651860923?text=Hola,%20me%20interesa%20el%20Paquete%201."
+                            target="_blank" rel="noopener noreferrer">Cotizar paquete 1</a>
+                    </div>
+                    <div class="mid">
+                        <h3>Paquete 2</h3><span class="mono">Hasta — invitados</span>
+                        <div class="pr">$—</div>
+                        <ul>
+                            <li>— sillas</li>
+                            <li>— tablones</li>
+                            <li>Carpa</li>
+                            <li>Entrega y recolección</li>
+                        </ul>
+                        <a class="btn mono"
+                            href="https://wa.me/525651860923?text=Hola,%20me%20interesa%20el%20Paquete%202."
+                            target="_blank" rel="noopener noreferrer">Cotizar paquete 2</a>
+                    </div>
+                    <div>
+                        <h3>Paquete 3</h3><span class="mono">Hasta — invitados</span>
+                        <div class="pr">$—</div>
+                        <ul>
+                            <li>— sillas</li>
+                            <li>— tablones</li>
+                            <li>Carpa</li>
+                            <li>Brincolín</li>
+                            <li>Entrega y recolección</li>
+                        </ul>
+                        <a class="btn mono"
+                            href="https://wa.me/525651860923?text=Hola,%20me%20interesa%20el%20Paquete%203."
+                            target="_blank" rel="noopener noreferrer">Cotizar paquete 3</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="como">
+            <div class="wrap">
+                <h2>Tres pasos y tu evento<br>queda resuelto.</h2>
+                <div class="steps">
+                    <div><span class="mono">01</span>
+                        <h3>Elige y cotiza</h3>
+                        <p>Dinos qué necesitas, la fecha y la zona. Te respondemos por WhatsApp.</p>
+                    </div>
+                    <div><span class="mono">02</span>
+                        <h3>Aparta tu fecha</h3>
+                        <p>Confirmas y tu fecha queda reservada en el calendario.</p>
+                    </div>
+                    <div><span class="mono">03</span>
+                        <h3>Montamos y recogemos</h3>
+                        <p>Nos encargamos de la carga pesada. Tú solo disfrutas con tus seres queridos.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="cotizar" style="padding-top:0">
+            <div class="wrap q">
+                <div>
+                    <h2>Dinos la fecha y el lugar.</h2>
+                    <p class="sub" style="margin-top:24px">Llena lo que sepas y se abre WhatsApp con tu mensaje ya
+                        escrito.</p>
+                    <div class="info">
+                        <div><span class="mono">Contacto directo</span>
+                            <div class="contact-btns">
+                                <a class="btn mono"
+                                    href="https://wa.me/525651860923?text=Hola,%20quisiera%20m%C3%A1s%20informaci%C3%B3n%20sobre%20las%20rentas."
+                                    target="_blank" rel="noopener noreferrer">Enviar WhatsApp</a>
+                                <a class="btn ghost mono" href="tel:+525651860923">Llamar ahora</a>
+                            </div>
+                        </div>
+                        <div><span class="mono">Zona</span>San Pablo de las Salinas, Edo. de México</div>
+                    </div>
+                </div>
+                <div class="form">
+                    <div class="row2">
+                        <label class="f mono">Fecha del evento<input type="date" id="fecha"></label>
+                        <label class="f mono">Invitados<input type="number" id="inv" min="1" placeholder="120"></label>
+                    </div>
+                    <div class="row2">
+                        <label class="f mono">Tipo de evento<select id="tipo">
+                                <option value="">Selecciona una opción</option>
+                                <option>Cumpleaños</option>
+                                <option>XV años</option>
+                                <option>Boda</option>
+                                <option>Bautizo</option>
+                                <option>Otro</option>
+                            </select></label>
+                        <label class="f mono">Colonia o zona<input type="text" id="zona"
+                                placeholder="Ej. San Pablo"></label>
+                    </div>
+                    <div class="f-t mono" id="lq">Qué necesitas
+                        <div class="chips" role="group" aria-labelledby="lq">
+                            <label><input type="checkbox" value="sillas"><span>Sillas</span></label>
+                            <label><input type="checkbox" value="tablones"><span>Tablones</span></label>
+                            <label><input type="checkbox" value="carpa"><span>Carpa</span></label>
+                            <label><input type="checkbox" value="brincolín"><span>Brincolín</span></label>
+                            <label><input type="checkbox" value="inflable"><span>Inflable</span></label>
+                        </div>
+                    </div>
+                    <a class="btn mono" id="send" href="#" target="_blank" rel="noopener noreferrer">Enviar por
+                        WhatsApp</a>
+                    <p class="note mono">Sin compromiso</p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="wrap foot mono"><span>&copy; 2026 Nombre Negocio. Todos los derechos
+                reservados.</span><span>Desarrollado por SpiDev</span></div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
